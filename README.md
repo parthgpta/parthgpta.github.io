@@ -1,1 +1,0 @@
-# parthgpta.github.io
