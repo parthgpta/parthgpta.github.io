@@ -15,8 +15,8 @@ class App extends Component{
 	render(){
 		return(
 			<div>
-				<Redirect exact from="/" to="/home" />
-				<Route path="/home" component={Home} />
+				//<Redirect exact from="/" to="/home" />
+				<Route path="/" component={Home} />
 				<Route path="/about" component={About} />
 				<Route path='/projects' component={Project} />
 				<Route path="/contact" component={Contact} />
